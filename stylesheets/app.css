@@ -2610,11 +2610,12 @@ body {
 }
 
 /* line 36, ../sass/app.sass */
-#social {
+#social, #stock {
   text-align: center;
+  padding-bottom: 0.5em;
 }
 
-/* line 38, ../sass/app.sass */
+/* line 39, ../sass/app.sass */
 .social-button {
   display: inline;
 }
