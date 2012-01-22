@@ -19,6 +19,7 @@ body
   font-size: 16px
 .container
   background: url('../images/logo.png') top center no-repeat
+  padding: 0
   padding-top: 210px
 #main
   background: rgba(255, 255, 255, 0.85)
@@ -26,20 +27,23 @@ body
   @include border-radius(13px, 13px)
   padding: 33px
   margin-bottom: 3em
+  max-width: 850px
 .image
   text-align: center
   & img
-    width: 55%
     padding: 1em
-.wide
-  width: 63% !important
 #social, #stock
   text-align: center
   padding-bottom: 0.5em
 .social-button
   display: inline
-#lang
+.image
   text-align: center
+  & img
+    width: 55%
+.wide
+  width: 60% !important
+#lang
   & li
     display: inline
     padding-right: 1em

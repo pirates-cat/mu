@@ -2576,10 +2576,11 @@ body {
 /* line 20, ../sass/app.sass */
 .container {
   background: url("../images/logo.png") top center no-repeat;
+  padding: 0;
   padding-top: 210px;
 }
 
-/* line 23, ../sass/app.sass */
+/* line 24, ../sass/app.sass */
 #main {
   background: rgba(255, 255, 255, 0.85);
   -moz-box-shadow: 0px 0px 21px grey;
@@ -2592,44 +2593,49 @@ body {
   border-radius: 13px / 13px;
   padding: 33px;
   margin-bottom: 3em;
+  max-width: 850px;
 }
 
-/* line 29, ../sass/app.sass */
+/* line 31, ../sass/app.sass */
 .image {
   text-align: center;
 }
-/* line 31, ../sass/app.sass */
+/* line 33, ../sass/app.sass */
 .image img {
-  width: 55%;
   padding: 1em;
 }
 
-/* line 34, ../sass/app.sass */
-.wide {
-  width: 63% !important;
-}
-
-/* line 36, ../sass/app.sass */
+/* line 35, ../sass/app.sass */
 #social, #stock {
   text-align: center;
   padding-bottom: 0.5em;
 }
 
-/* line 39, ../sass/app.sass */
+/* line 38, ../sass/app.sass */
 .social-button {
   display: inline;
 }
 
-/* line 41, ../sass/app.sass */
-#lang {
+/* line 40, ../sass/app.sass */
+.image {
   text-align: center;
 }
-/* line 43, ../sass/app.sass */
+/* line 42, ../sass/app.sass */
+.image img {
+  width: 55%;
+}
+
+/* line 44, ../sass/app.sass */
+.wide {
+  width: 60% !important;
+}
+
+/* line 47, ../sass/app.sass */
 #lang li {
   display: inline;
   padding-right: 1em;
 }
-/* line 46, ../sass/app.sass */
+/* line 50, ../sass/app.sass */
 #lang li:last {
   padding-right: 0;
 }
