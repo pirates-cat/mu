@@ -1,8 +1,10 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+/* TEAM */
+Creator: Pirates de Catalunya
+Site: http://pirata.cat
+Mail: partit (AT-awesome) pirata (a-cool-DOT-for-a-cool-domain) cat
+Twitter: @partit_pirata
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Coda, TextMate, Git
+Standards: HTML5, CSS3
+Software: Vi, Git, Bundler, Ruby, GNU Screen
+Frameworks: ZURB Foundation, Compass, HTML5 Boilerplate
