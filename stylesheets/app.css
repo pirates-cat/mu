@@ -2576,7 +2576,7 @@ body {
 /* line 20, ../sass/app.sass */
 .container {
   background: url("../images/logo.png") top center no-repeat;
-  padding-top: 225px;
+  padding-top: 210px;
 }
 
 /* line 23, ../sass/app.sass */
@@ -2602,4 +2602,19 @@ body {
 .image img {
   width: 55%;
   padding: 1em;
+}
+
+/* line 34, ../sass/app.sass */
+.wide {
+  width: 63% !important;
+}
+
+/* line 36, ../sass/app.sass */
+#social {
+  text-align: center;
+}
+
+/* line 38, ../sass/app.sass */
+.social-button {
+  display: inline;
 }
