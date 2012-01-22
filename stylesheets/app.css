@@ -2619,3 +2619,17 @@ body {
 .social-button {
   display: inline;
 }
+
+/* line 41, ../sass/app.sass */
+#lang {
+  text-align: center;
+}
+/* line 43, ../sass/app.sass */
+#lang li {
+  display: inline;
+  padding-right: 1em;
+}
+/* line 46, ../sass/app.sass */
+#lang li:last {
+  padding-right: 0;
+}
