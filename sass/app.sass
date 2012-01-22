@@ -9,6 +9,20 @@
 // ZURB Foundation settings
 
 @import ZURB-foundation
+@import "compass/css3/box-shadow"
+@import "compass/css3/border-radius"
 
 // Project Styles
 //-----------------------------------------
+body
+  background: url('../images/bg.png') repeat
+  font-size: 16px
+.container
+  background: url('../images/logo.png') top center no-repeat
+  padding-top: 225px
+#main
+  background: rgba(255, 255, 255, 0.85)
+  @include single-box-shadow(grey, 0px, 0px, 21px)
+  @include border-radius(13px, 13px)
+  padding: 33px
+  margin-bottom: 3em
