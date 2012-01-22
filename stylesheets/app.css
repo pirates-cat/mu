@@ -2593,3 +2593,13 @@ body {
   padding: 33px;
   margin-bottom: 3em;
 }
+
+/* line 29, ../sass/app.sass */
+.image {
+  text-align: center;
+}
+/* line 31, ../sass/app.sass */
+.image img {
+  width: 55%;
+  padding: 1em;
+}
