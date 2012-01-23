@@ -11,3 +11,7 @@ div.panel {
 .lt-ie8 .nav-bar li.has-flyout a:after {
   border-top: none;
 }
+
+#main {
+	  background: #FFF;
+}
